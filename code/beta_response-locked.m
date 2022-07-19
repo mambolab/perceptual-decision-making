@@ -17,11 +17,13 @@ clear
 clc
 close all
 
-ft_dir = '/home/robbis/git/fieldtrip/';
+% Put your fieldtrip path here
+ft_dir = '/home/mambolab/git/fieldtrip/';
 addpath(ft_dir);
 ft_defaults;
 
-data_path = '/home/robbis/git/perceptual-decision-making/data/'
+% Put your data path here
+pn = '/home/mambolab/git/perceptual-decision-making/data/'
 n_subjects = 16;
 band = 'beta';
 
@@ -37,7 +39,7 @@ for k = 1:n_subjects
              '_powspec.mat'];
 
     
-    data = load(fullfile(data_path, band, fname));
+    data = load(fullfile(data_path, fname));
         
     time = data.tfa.time;
     indx_all = (time >= time(nearest(time,-1.48)) & (time < time(nearest(time, 1.48)))); 
