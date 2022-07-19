@@ -1,10 +1,13 @@
 # Perceptual Decision Making
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6861111.svg)](https://doi.org/10.5281/zenodo.6861111)
+
+
 This repository contains the code to reproduce the statistical analysis of the paper:
 
 
 D'Andrea et al. (2022) Magnetoencephalographic spectral fingerprints differentiate evidence accumulation from saccadic motor preparation in perceptual decision-making.
 
-In order to make the code running, you need to download FieldTrip vXXX and the dataset from https://xxxxxx.
+In order to make the code running, you need to download FieldTrip vXXX and the dataset from https://doi.org/10.5281/zenodo.6861111.
 
 ## Contents
 The folder ```/code/``` contains:
