@@ -5,7 +5,7 @@
 This repository contains the code to reproduce the statistical analysis of the paper:
 
 
-D'Andrea et al. (2022) Magnetoencephalographic spectral fingerprints differentiate evidence accumulation from saccadic motor preparation in perceptual decision-making.
+D'Andrea et al. (2022) Magnetoencephalographic spectral fingerprints differentiate evidence accumulation from saccadic motor preparation in perceptual decision-making. https://doi.org/10.1016/j.isci.2022.105246
 
 In order to make the code running, you need to download FieldTrip vXXX and the dataset from https://doi.org/10.5281/zenodo.6861111.
 
